@@ -8,7 +8,7 @@
     <script src="lib/jquery.js" type="text/javascript"></script>
     <script src="lib/coffee-script.js" type="text/javascript"></script>
     <script src="lib/eval-coffeescript.js" type="text/javascript"></script>
-
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
     <style type="text/css" media="screen">
             h1 {
         font-size: 4.5em;
@@ -95,5 +95,13 @@
 
     </textarea>
     <div id="slideshow"></div>
+    <script type="text/javascript">
+      var remark = this.remark;
+      $(document).ready(function() {
+        remark.events.addListener("slidein", function(slide, index) {
+          loadConsolesOn("code.coffee:contains('alert')");
+        });
+      });
+    </script>
   </body>
 </html>
