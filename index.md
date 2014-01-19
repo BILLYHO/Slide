@@ -29,18 +29,18 @@ int main ()
 
 
 ##Unordered List
-- item
-- item
-- item
+- item <!-- .element: class="fragment" data-fragment-index="1" -->
+- item <!-- .element: class="fragment" data-fragment-index="3" -->
+- item <!-- .element: class="fragment" data-fragment-index="2" -->
 
 
 ##Order List
-1. item <!-- .element: class="fragment" data-fragment-index="1" -->
-2. item <!-- .element: class="fragment" data-fragment-index="1" -->
-3. item <!-- .element: class="fragment" data-fragment-index="1" -->
+1. grow <!-- .element: class="fragment grow" data-fragment-index="1" -->
+2. shrink <!-- .element: class="fragment shrink" data-fragment-index="2" -->
+3. highlight-red <!-- .element: class="fragment highlight-red" data-fragment-index="3" -->
 
 
 
 <!-- .slide: data-background="#ff0000" -->
 ##Pic
-![image](image/1.jpg)
+<img width="350" height="420" src="image/1.jpg">
