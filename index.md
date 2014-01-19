@@ -1,11 +1,11 @@
 ##Testing
 
-testing slide [google](google.com)
+testing slide [google](www.google.com)
 
 
 ##vertical
 
-[my blog](billyho.github.io)
+[my blog](../)
 
 
 
